@@ -1,3 +1,51 @@
 @charset "UTF-8";
 
 /* Versão para Mobile */
+
+/* Paleta de Cores 
+Cor1: #190D0D Site
+Cor2: #504343 Ao passar o Mouse (hover)
+Cor3: #201717 Menu
+Cor4: #140707 Nav
+Cor5: #0F0202 Header
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Imperial+Script&family=Parisienne&display=swap');
+
+
+:root {
+    --Cor1: #190D0D;
+    /* Site */
+    --Cor2: #504343;
+    /* Ao passar o Mouse (hover) */
+    --Cor3: #201717;
+    /* Menu */
+    --Cor4: #140707;
+    /* Nav */
+    --Cor5: #0F0202;
+    /* Header */
+
+    --fonte-padrao: arial, verdana, helvetica, sans-serif;
+    --fonte-header: "Dancing Script", cursive;
+    --fonte-menu: "Imperial Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0px;
+    height: 0px;
+}
+
+body, html {
+    background-color: #504343;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+}
