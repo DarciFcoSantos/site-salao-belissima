@@ -94,6 +94,14 @@ nav>a {
 
 nav>a:hover {
     background-color: var(--Cor5);
-    color: rgb(87, 46, 46);
+    /*color: rgb(87, 46, 46);*/
+    color: rgb(102, 104, 107);
+}
 
+menu {
+    background: var(--Cor3);
+}
+
+menu > a {
+    
 }
