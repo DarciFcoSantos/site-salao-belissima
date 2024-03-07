@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/* Versão para Mobile */
+/* Versão para Mobile First */
 
 /* Paleta de Cores 
 Cor1: #190D0D Site
@@ -16,15 +16,15 @@ Cor5: #0F0202 Header
 
 
 :root {
-    --Cor1: #190D0D;
+    --Cor1-site: #190D0D;
     /* Site */
-    --Cor2: #504343;
+    --Cor2-hover: #504343;
     /* Ao passar o Mouse (hover) */
-    --Cor3: #201717;
+    --Cor3-menu: #201717;
     /* Menu */
-    --Cor4: #140707;
+    --Cor4-nav: #140707;
     /* Nav */
-    --Cor5: #0F0202;
+    --Cor5-header: #0F0202;
     /* Header */
 
     --fonte-padrao: arial, verdana, helvetica, sans-serif;
@@ -35,14 +35,25 @@ Cor5: #0F0202 Header
 }
 
 * {
+    font-family: var(--fonte-padrao);
+    /* Fonte do Site padrão */
+    font-size: 1em;
+    /* Tamanho da fonte */
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+    /* Borda no tamanho */
 }
 
-body,
 html {
-    background: var(--Cor5);
-    font-family: var(--fonte-padrao);
+    height: 100vh;
+}
+
+body {
+    background: linear-gradient(to bottom, var(--Cor1-site), var(--Cor2-hover)) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
 }
 
 main {
@@ -102,6 +113,4 @@ menu {
     background: var(--Cor3);
 }
 
-menu > a {
-    
-}
+menu>a {}

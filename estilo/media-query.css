@@ -14,3 +14,47 @@
 - Grandes telas: acima de 1200px
 */
 
+/* Para IMPRESSÃO */
+@media print {
+    * {
+        font-family: 'Courier New', Courier, monospace;
+        /* Fonte para Impressão */
+    }
+
+    body {
+        background-color: white;
+    }
+
+    main {
+        width: 90vw;
+        border: 2px solid black;
+        /* Borda para impressora */
+    }
+
+    main::after {
+        content: 'Essa impressão foi realizada no site: salão belissima';
+        /* Texto no final da folha */
+        text-align: center;
+        text-decoration: overline; /* Linha de Separação */
+
+    }
+}
+
+/* Para TABLET */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        
+    }
+}
+
+/* Para DESKTOP */
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    body {
+        background: black;
+    }
+}
+
+/* Para GRANDES TELAS */
+@media screen and (min-width: 1200px) {
+    
+}
