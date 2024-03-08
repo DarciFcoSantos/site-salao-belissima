@@ -44,13 +44,24 @@ Cor5: #0F0202 Header
     box-sizing: border-box;
     /* Borda no tamanho */
 }
-header {
-    background: rgb(194, 169, 169);
+
+.container {
+    max-width: 1080px;
 }
 
-header > h1 {
+header {
+    background-image: linear-gradient(to bottom, var(--Cor3-menu), var(--Cor2-hover));
     text-align: center;
+    padding-top: 40px;
 }
+
+header>h1 {
+    text-align: center;
+    color: var(--Cor5-header);
+    font-size: 2em;
+
+}
+
 div.img {
     height: 98vh;
     /*border: 1px dashed black;*/
@@ -60,4 +71,3 @@ div.img {
     background-position: left right;
     text-shadow: 1px 1px 1px #190D0D;
 }
-
