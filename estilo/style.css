@@ -44,22 +44,3 @@ Cor5: #0F0202 Header
     box-sizing: border-box;
     /* Borda no tamanho */
 }
-
-header {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    background-image: linear-gradient(to bottom, var(--Cor3-menu), var(--Cor2-hover));
-    text-align: center;
-    padding-top: 40px;
-}
-
-/*div.img {
-    height: 98vh;
-    /*border: 1px dashed black;*/
- /*   background-image: url('../imagens/claudia-santos-silva.png');
-    background-size: 180px;
-    background-repeat: no-repeat;
-    background-position: left right;
-    text-shadow: 1px 1px 1px #190D0D;
-}*/
