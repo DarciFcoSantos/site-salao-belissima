@@ -43,12 +43,12 @@
 /* Para TABLET */
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body {
-        
+        background-color: blue;
     }
 }
 
 /* Para DESKTOP */
-@media screen and (min-width: 992px) and (max-width: 1200px){
+@media screen and (min-width: 992px) and (max-width: 1200px) {
     body {
         background: black;
     }
@@ -56,5 +56,7 @@
 
 /* Para GRANDES TELAS */
 @media screen and (min-width: 1200px) {
-    
+    body{
+        background: green;
+    }
 }

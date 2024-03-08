@@ -44,74 +44,20 @@ Cor5: #0F0202 Header
     box-sizing: border-box;
     /* Borda no tamanho */
 }
-
-html {
-    height: 100vh;
-}
-
-body {
-    background: linear-gradient(to bottom, var(--Cor1-site), var(--Cor2-hover)) no-repeat;
-    background-size: cover;
-    background-position: center center;
-    
-}
-
-main {
-    height: 100vh;
-    width: 100vw;
-}
-
 header {
-    background-image: linear-gradient(to bottom, var(--Cor1), var(--Cor2));
-    min-height: 150px;
-    text-align: center;
-    padding-top: 60px;
-
+    background: rgb(194, 169, 169);
 }
 
 header > h1 {
     text-align: center;
-    color: rgb(94, 88, 88);
-    font-family: var(--fonte-header);
-    font-size: 3em;
-    font-weight: normal;
-    margin-bottom: 10px;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.30);
+}
+div.img {
+    height: 98vh;
+    /*border: 1px dashed black;*/
+    background-image: url('../imagens/claudia-santos-silva.png');
+    background-size: 180px;
+    background-repeat: no-repeat;
+    background-position: left right;
+    text-shadow: 1px 1px 1px #190D0D;
 }
 
-header>p {
-    font-family: var(--fonte-header);
-    font-size: 1.5em;
-    color: var(--Cor5);
-    padding-right: 20px;
-    padding-left: 10px;
-    max-width: 500px;
-    margin: auto;
-}
-
-nav {
-    background-color: var(--Cor3);
-    padding: 15px;
-    box-shadow: 0px 1px 1px rgb(163, 120, 120);
-}
-
-nav>a {
-    color: var(--Cor2);
-    padding: 10px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-    transition-duration: 0.5s;
-}
-
-nav>a:hover {
-    background-color: var(--Cor5);
-    /*color: rgb(87, 46, 46);*/
-    color: rgb(102, 104, 107);
-}
-
-menu {
-    background: var(--Cor3);
-}
-
-menu>a {}
