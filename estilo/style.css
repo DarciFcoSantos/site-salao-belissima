@@ -46,9 +46,9 @@ Cor5: #0F0202 Header
 }
 
 header {
-    background-image: linear-gradient(to bottom, var(--Cor2-hover), var(--Cor3-menu));
+    /*background: linear-gradient(to bottom, var(--Cor2-hover), var(--Cor3-menu));*/
     min-width: 150px;
-    text-align: center;
+    /*text-align: center;*/
     padding-top: 30px;
 }
 
@@ -95,8 +95,14 @@ menu>a:hover {
     color: var(--Cor1-site);
 }
 
-header#foto {
+.container {
     background-image: url('../imagens/claudia-santos-silva.png');
-    background-size: cover;
-    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+}
+
+#img {
+    text-align: center;
+    background-image: linear-gradient(to bottom, var(--Cor2-hover), var(--Cor3-menu));
 }
