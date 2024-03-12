@@ -15,105 +15,30 @@ Cor5: #0F0202 Header
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Imperial+Script&family=Parisienne&display=swap');
 
 
-*{
 :root {
-    --Cor1-site: #190D0D; /* Site */
-    --Cor2-hover: #504343; /* Ao passar o Mouse (hover) */
-    --Cor3-menu: #201717; /* Menu */
-    --Cor4-nav: #140707; /* Nav */
-    --Cor5-header: #0F0202; /* Header */
-
-    --fonte-padrao: arial, verdana, helvetica, sans-serif;
-    --fonte-header: "Dancing Script", cursive;
-    --fonte-menu: "Imperial Script", cursive;
-    --font-weight: 400;
-    --font-style: normal;
+     --Cor1-site: #190D0D; /* Site */
+     --Cor2-hover: #504343; /* Ao passar o se (hover) */
+     --Cor3-menu: #201717; /* Menu */
+     --Cor4-nav: #140707; /* Nav */
+     --Cor5-header: #0F0202; /* Header */
+     --fonte-padrao: arial, verdana, helvetica, s-serif;
+     --fonte-header: "Dancing Script", cursive;
+     --fonte-menu: "Imperial Script", cursive;
+     --font-weight: 400;
+     --font-style: normal;
 }
-
-
-    /* Fonte do Site padrão */
-    font-family: var(--fonte-padrao);
+     
+* {
     margin: 0px;
     padding: 0px;
-    /* Borda no tamanho */
     box-sizing: border-box;
-}
-
-html {
-    width: 100%;
-    
-
-}
-
-body {
-    width: 100%;
-    height: 100%;
-}
-
-main {
-    margin: 0 auto;
-    width: 980px;
+    text-decoration: none;
+    list-style: none;
 }
 
 header {
-    background: linear-gradient(to bottom, var(--Cor2-hover), var(--Cor3-menu));
-    min-width: 150px;
-    text-align: center;
-    padding-top: 10px;
+    background: linear-gradient(to bottom, var(--Cor5-header), var(--Cor2-hover));
+    height: 120px;
+    width: 100%;
 }
 
-header div>h1 {
-    color: var(--Cor5-header);
-    font-family: var(--fonte-header);
-    font-size: 5em;
-    font-weight: normal;
-    margin-bottom: 10px;
-    text-shadow: 2px 2px rgba(0, 0, 0, 0.20);
-}
-
-header>div p {
-    font-family: var(--fonte-menu);
-    font-size: 2.2em;
-    color: rgba(126, 102, 102, 0.842);
-    var(--Cor4-nav);
-    margin: auto;
-    padding-bottom: 40px;
-    text-shadow: 1px 1px rgba(0, 0, 0, 0.20);
-}
-
-.img {
-    display: flex;
-    flex-direction: column;
-    background-image: url('../imagens/claudia-santos-silva.png');
-    background-position: left;
-    background-size: 200px;
-    background-repeat: no-repeat;
-}
-
-.menu {
-    background-color: var(--Cor3-menu);
-    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.158);
-    padding: 20px;
-}
-
-menu>a {
-    color: var(--Cor2-hover);
-    padding: 10px;
-    border-radius: 13px;
-    text-decoration: none;
-    font-weight: bold;
-    transition-duration: 0.5s;
-}
-
-menu>a:hover {
-    background-color: var(--Cor2-hover);
-    color: var(--Cor1-site);
-}
-
-.rede-sociais>img {
-    margin: 5px;
-    border-radius: 150px;
-    float: right;
-    margin: 5px;
-    width: 2%;
-}
