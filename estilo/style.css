@@ -114,3 +114,23 @@ menu>a:hover {
     background-color: var(--Cor2-hover);
     color: var(--Cor1-site);
 }
+
+.rede-sociais {
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(to left, var(--Cor3-menu), var(--Cor1-site));
+    padding: 20px;
+}
+
+.rede-sociais > a {
+    color: yellow;
+    padding: 10px;
+    font-weight: var(--fonte-padrao);
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+.rede-sociais > a:hover {
+    background-color: var(--Cor2-hover);
+    color: var(--Cor1-site);
+}
