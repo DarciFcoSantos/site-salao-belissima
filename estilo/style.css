@@ -30,15 +30,13 @@ Cor5: #0F0202 Header
     --fonte-padrao: arial, verdana, helvetica, sans-serif;
     --fonte-header: "Dancing Script", cursive;
     --fonte-menu: "Imperial Script", cursive;
-    font-weight: 400;
-    font-style: normal;
+    --font-weight: 400;
+    --font-style: normal;
 }
 
 * {
     /* Fonte do Site padrão */
     font-family: var(--fonte-padrao);
-    /* Tamanho da fonte */
-    font-size: 1em;
     margin: 0px;
     padding: 0px;
     /* Borda no tamanho */
@@ -50,9 +48,24 @@ Cor5: #0F0202 Header
     min-width: 150px;
     text-align: center;
     padding-top: 30px;
+}*/
+
+
+html {
+    height: 500vh;
 }
 
-header>h1 {
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: linear-gradient(to bottom, var(--Cor2-hover), var(--Cor3-menu));
+    min-width: 150px;
+    text-align: center;
+    padding-top: 0px;
+}
+
+header div > h1 {
     color: var(--Cor5-header);
     font-family: var(--fonte-header);
     font-size: 4em;
@@ -61,49 +74,29 @@ header>h1 {
     text-shadow: 2px 2px rgba(0, 0, 0, 0.20);
 }
 
-header>p {
+header>div p {
     font-family: var(--fonte-menu);
     font-size: 2.2em;
     color: rgba(126, 102, 102, 0.842);
-    /*var(--Cor4-nav);*/
-/*    margin: auto;
+    var(--Cor4-nav);
+    margin: auto;
     padding-bottom: 40px;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.20);
-}*/
+}
 
+.img {
+    display: flex;
+    flex-direction: column;
+    background-image: url('../imagens/claudia-santos-silva.png');
+    background-position: left top;
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
 .menu {
     background-color: var(--Cor3-menu);
     width: 100vw;
-    padding: 18px;
+    padding: 20px;
     box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.158);
 }
 
@@ -119,4 +112,4 @@ menu>a {
 menu>a:hover {
     background-color: var(--Cor2-hover);
     color: var(--Cor1-site);
-}*/
+}
