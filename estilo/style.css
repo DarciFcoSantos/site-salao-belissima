@@ -16,18 +16,23 @@ Cor5: #0F0202 Header
 
 
 :root {
-     --Cor1-site: #190D0D; /* Site */
-     --Cor2-hover: #504343; /* Ao passar o se (hover) */
-     --Cor3-menu: #201717; /* Menu */
-     --Cor4-nav: #140707; /* Nav */
-     --Cor5-header: #0F0202; /* Header */
-     --fonte-padrao: arial, verdana, helvetica, s-serif;
-     --fonte-header: "Dancing Script", cursive;
-     --fonte-menu: "Imperial Script", cursive;
-     --font-weight: 400;
-     --font-style: normal;
+    --Cor1-site: #190D0D;
+    /* Site */
+    --Cor2-hover: #504343;
+    /* Ao passar o se (hover) */
+    --Cor3-menu: #201717;
+    /* Menu */
+    --Cor4-nav: #140707;
+    /* Nav */
+    --Cor5-header: #0F0202;
+    /* Header */
+    --fonte-padrao: arial, verdana, helvetica, s-serif;
+    --fonte-header: "Dancing Script", cursive;
+    --fonte-menu: "Imperial Script", cursive;
+    --font-weight: 400;
+    --font-style: normal;
 }
-     
+
 * {
     margin: 0px;
     padding: 0px;
@@ -36,9 +41,42 @@ Cor5: #0F0202 Header
     list-style: none;
 }
 
-header {
+.header {
     background: linear-gradient(to bottom, var(--Cor5-header), var(--Cor2-hover));
     height: 120px;
     width: 100%;
+    padding-inline: 10px;
 }
 
+.nav {
+    max-width: 1280px;
+    height: 70px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+    align-items: end;
+}
+
+.header h1 {
+    display: flex;
+    color: aliceblue;
+    align-items: flex-end;
+    text-align: center;
+}
+
+.header p {
+    color: white;
+    align-items: flex-end;
+}
