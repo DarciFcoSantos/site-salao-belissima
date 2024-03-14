@@ -37,46 +37,32 @@ Cor5: #0F0202 Header
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
 }
 
 .header {
-    background: linear-gradient(to bottom, var(--Cor5-header), var(--Cor2-hover));
-    height: 120px;
-    width: 100%;
-    padding-inline: 10px;
-}
-
-.nav {
-    max-width: 1280px;
-    height: 70px;
-    margin-inline: auto;
-    display: flex;
-    justify-content: space-between;
-}
-
-.logo {
-    width: 200px;
-    height: 200px;
-    margin-top: 10px;
+    width: 100vw;
+    height: 15vh;
+    background-color: #0F0202;
 }
 
 .nav-list {
-    display: flex;
-    gap: 32px;
-    list-style: none;
-    align-items: end;
+    
 }
 
-.header h1 {
-    display: flex;
-    color: aliceblue;
-    align-items: flex-end;
+.nav {
+    background: url('../imagens/claudia-santos-silva.png') no-repeat;
+    background-size: contain;
+    background-position-x: 30%;
+    background-attachment: local;
+
+}
+
+h1 {
     text-align: center;
+    color: aliceblue;
 }
 
-.header p {
-    color: white;
-    align-items: flex-end;
+p {
+    text-align: center;
+    color: wheat;
 }
