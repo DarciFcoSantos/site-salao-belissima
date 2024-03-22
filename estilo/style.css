@@ -67,6 +67,20 @@ header>p {
     text-shadow: 2px 2px rgba(0, 0, 0.26);
 }
 
+i#burguer {
+    background-color: rgb(48, 48, 48);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+i#burguer:hover {
+    background-color: white;
+    color: black;
+}
+
 menu {
     background: var(--Cor3-menu);
     padding: 15px;
@@ -85,5 +99,5 @@ menu > a{
 
 menu > a:hover {
     background-color: var(--Cor5-header);
-    color: bisque;
+    color: rgba(187, 169, 169, 0.658);
 }
