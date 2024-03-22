@@ -39,6 +39,12 @@ Cor5: #0F0202 Header
     box-sizing: border-box;
 }
 
+body,
+html {
+    background-color: var(--Cor5-header);
+    /* Fundo do site */
+}
+
 header {
     min-height: 150px;
     text-align: center;
@@ -68,7 +74,7 @@ header>p {
 }
 
 i#burguer {
-    background-color: rgb(48, 48, 48);
+    background-color: var(--Cor3-menu);
     color: white;
     display: block;
     text-align: center;
@@ -77,27 +83,43 @@ i#burguer {
 }
 
 i#burguer:hover {
-    background-color: white;
+    background-color: var(--Cor2-hover);
     color: black;
 }
 
 menu {
+    display: none;
     background: var(--Cor3-menu);
     padding: 15px;
     box-shadow: 0px 5px 5px rgb(49, 48, 48);
 }
 
-menu > a{
+menu>a {
+    display: block;
     color: var(--Cor2-hover);
     padding: 10px;
     border-radius: 10px;
+    border-top: 2px solid rgb(46, 40, 40);
     font-family: var(--fonte-padrao);
     text-decoration: none;
+    text-align: center;
     font-weight: bold;
     transition-duration: 0.5s;
 }
 
-menu > a:hover {
+menu>a:hover {
     background-color: var(--Cor5-header);
     color: rgba(187, 169, 169, 0.658);
+}
+
+main {
+    width: 90vw;
+    background-color: var(--Cor3-menu);
+    color: white;
+    font-size: 1.4em;
+    font-family: var(--fonte-padrao);
+    margin: auto;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 10px;
 }
