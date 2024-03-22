@@ -98,8 +98,8 @@ menu>a {
     display: block;
     color: var(--Cor2-hover);
     padding: 10px;
-    border-radius: 10px;
-    border-top: 2px solid rgb(46, 40, 40);
+    /*border-radius: 10px;*/
+    border-top: 1px solid rgb(46, 40, 40);
     font-family: var(--fonte-padrao);
     text-decoration: none;
     text-align: center;
@@ -118,8 +118,10 @@ main {
     color: white;
     font-size: 1.4em;
     font-family: var(--fonte-padrao);
+    text-align: justify;
     margin: auto;
     margin-top: 10px;
+    margin-bottom: 10px;
     padding: 20px;
     border-radius: 10px;
 }
