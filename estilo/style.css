@@ -14,6 +14,8 @@ Cor5: #0F0202 Header
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Imperial+Script&family=Parisienne&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Imperial+Script&family=Montserrat:ital,wght@0,100..900;1,100. .900&family=Parisienne&display=swap');
+
 
 :root {
     --Cor1-site: #190D0D;
@@ -26,7 +28,7 @@ Cor5: #0F0202 Header
     /* Nav */
     --Cor5-header: #0F0202;
     /* Header */
-    --fonte-padrao: arial, verdana, helvetica, s-serif;
+    --fonte-padrao: "Montserrat",arial, verdana, helvetica, s-serif;
     --fonte-header: "Dancing Script", cursive;
     --fonte-menu: "Imperial Script", cursive;
     --font-weight: 400;
@@ -117,7 +119,7 @@ main {
     background-color: var(--Cor3-menu);
     color: white;
     font-size: 1.4em;
-    font-family: var(--fonte-padrao);
+    font-family: "Montserrat";
     text-align: justify;
     margin: auto;
     margin-top: 10px;
